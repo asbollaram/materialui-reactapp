@@ -5,7 +5,13 @@ import HeroImage from './HeroImage';
 
 const HeroSection = () => {
   return (
-    <Stack direction="row" spacing={2} justifyContent="space-between">
+    <Stack
+      direction="row"
+      spacing={2}
+      justifyContent="space-between"
+      alignItems="center"
+      mt={1}
+    >
       <Box sx={{ flex: '2' }}>
         <HeroText />
       </Box>
